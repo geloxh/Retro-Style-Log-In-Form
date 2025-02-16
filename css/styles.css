@@ -1,0 +1,102 @@
+/* Modern Retro Aesthetic CSS */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.form-box {
+    background: #16213e;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    box-shadow: 0px 0px 15px #00fff7;
+    border: 3px solid #00fff7;
+}
+
+h2 {
+    color: #00fff7;
+    text-shadow: 0px 0px 8px #00fff7;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin: 15px 0;
+    text-align: left;
+}
+
+label {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background: #0f3460;
+    color: #fff;
+    outline: none;
+}
+
+button {
+    background-color: #e94560;
+    color: white;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff3377;
+    box-shadow: 0px 0px 10px #ff3377;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Password input container */
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* Toggle password visibility icon */
+.toggle-password {
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    color: #00fff7;
+}
+
+a {
+    color: #00fff7;
+    text-decoration: none;
+    font-size: 12px;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff3377;
+}
